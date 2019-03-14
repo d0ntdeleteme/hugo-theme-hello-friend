@@ -6,7 +6,7 @@ echo ""
 read -p "Name?" name
 echo ""
 
-git commit -m $\"name\"
+git commit -m $name
 
 git push -u origin master
 
